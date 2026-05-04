@@ -33,6 +33,9 @@ Build a reproducible NLP system that:
 
 Raw data is loaded at runtime via HuggingFace — see `data/README.md`.
 
+The notebooks have been run and their output artifacts are included locally under
+`outputs/`.
+
 ---
 
 ## Repository Structure
@@ -79,7 +82,7 @@ Python 3.9+ recommended.
 
 ## How to Run
 
-### Notebooks (run in order)
+### Notebooks
 
 ```bash
 jupyter lab
@@ -87,7 +90,9 @@ jupyter lab
 jupyter notebook
 ```
 
-Open and run sequentially:
+The notebooks have already been run for this project. Open them to inspect the
+saved code, markdown, and outputs. If regenerating the analysis from scratch,
+run them sequentially:
 
 | Notebook | Description |
 |---|---|
@@ -98,7 +103,7 @@ Open and run sequentially:
 
 ### Interactive Streamlit App
 
-After running Notebook 04 (to train and save classifiers):
+The saved classifiers are included in `outputs/models/`. To launch the app:
 
 ```bash
 streamlit run app/streamlit_app.py
@@ -113,30 +118,32 @@ The app will open in your browser at `http://localhost:8501`.
 ### Summarization
 
 - **Model:** `sshleifer/distilbart-cnn-12-6` (DistilBART fine-tuned on CNN/DailyMail)
-- **Strategy:** Hierarchical chunking (512 tokens, 50-token overlap) → chunk summaries → final pass
-- **Outputs:** Long (~200+ words), Short (~100 words), Tiny (~30 words)
+- **Strategy:** Hierarchical chunking (768-token chunks, 80-token overlap) → chunk summaries → final pass
+- **Outputs:** Long, short, and tiny generated summaries compared with dataset references
+- **Notebook 3 demo:** 5 selected cases with all three reference summaries
+- **Streamlit app:** lightweight extractive demo summaries for local interactivity; it does not rerun DistilBART
 
 ### Classification
 
 | Model | Algorithm | Feature | Target |
 |---|---|---|---|
-| Model 1 | TF-IDF + Logistic Regression | Cleaned case text | `class_action_sought` |
+| Model 1 | TF-IDF + LinearSVC | Cleaned case text | `class_action_sought` |
 | Model 2 | TF-IDF + LinearSVC | Cleaned case text | `case_type` (top 6) |
 
 ---
 
 ## Evaluation Summary
 
-*(Fill in after running notebooks)*
-
 | Task | Metric | Score |
 |---|---|---|
-| Summarization (short) | ROUGE-1 | — |
-| Summarization (short) | ROUGE-L | — |
-| class_action_sought | Test Accuracy | — |
-| class_action_sought | Weighted F1 | — |
-| case_type (top 6) | Test Accuracy | — |
-| case_type (top 6) | Macro F1 | — |
+| Summarization (short) | ROUGE-1 | 0.3302 |
+| Summarization (short) | ROUGE-L | 0.1922 |
+| class_action_sought, TF-IDF + LinearSVC | Test Accuracy | 0.9482 |
+| class_action_sought, TF-IDF + LinearSVC | Weighted F1 | 0.9481 |
+| class_action_sought, TF-IDF + LinearSVC | Macro F1 | 0.9400 |
+| case_type (top 6), TF-IDF + LinearSVC | Test Accuracy | 0.9630 |
+| case_type (top 6), TF-IDF + LinearSVC | Weighted F1 | 0.9630 |
+| case_type (top 6), TF-IDF + LinearSVC | Macro F1 | 0.9361 |
 
 ---
 
