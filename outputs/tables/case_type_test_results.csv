@@ -1,0 +1,2 @@
+model,split,accuracy,weighted_precision,weighted_recall,weighted_f1,macro_precision,macro_recall,macro_f1
+TF-IDF + LinearSVC,test,0.9629629629629629,0.964149059665559,0.9629629629629629,0.9629790331299337,0.9368039537578633,0.9379252969075766,0.9360746971277956

@@ -1,0 +1,4 @@
+summary_level,rouge1_f,rouge2_f,rougeL_f,mean_tfidf_cosine_similarity
+long,0.2472,0.0966,0.1421,0.2699
+short,0.3302,0.0792,0.1922,0.1711
+tiny,0.2146,0.0517,0.1727,0.0885

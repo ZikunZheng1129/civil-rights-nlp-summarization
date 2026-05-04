@@ -1,0 +1,16 @@
+case_id,case_type,summary_level,tfidf_cosine_similarity
+PN-MN-0006,Policing,long,0.11470993124413745
+PN-MN-0006,Policing,short,0.10677951052881951
+PN-MN-0006,Policing,tiny,0.06750964585460814
+PD-TX-0003,Indigent Defense,long,0.27254102456176577
+PD-TX-0003,Indigent Defense,short,0.09571790924728775
+PD-TX-0003,Indigent Defense,tiny,0.09443442014710529
+CW-IL-0006,Child Welfare,long,0.2580440775861336
+CW-IL-0006,Child Welfare,short,0.2525674319066747
+CW-IL-0006,Child Welfare,tiny,0.07152672071106579
+IM-DC-0048,Immigration and/or the Border ,long,0.2748937529393616
+IM-DC-0048,Immigration and/or the Border ,short,0.060198154225476114
+IM-DC-0048,Immigration and/or the Border ,tiny,0.16919269719166635
+PC-MO-0012,Prison Conditions,long,0.42908903825807476
+PC-MO-0012,Prison Conditions,short,0.3404440745523965
+PC-MO-0012,Prison Conditions,tiny,0.0396627494204973

@@ -1,0 +1,6 @@
+case_id,case_type,generated_long_word_count,generated_short_word_count,generated_tiny_word_count,ref_long_word_count,ref_short_word_count,ref_tiny_word_count
+PN-MN-0006,Policing,104,62,35,196,123,33
+PD-TX-0003,Indigent Defense,101,58,35,212,54,17
+CW-IL-0006,Child Welfare,91,78,35,871,100,19
+IM-DC-0048,Immigration and/or the Border ,90,56,34,641,87,18
+PC-MO-0012,Prison Conditions,105,88,35,397,64,17

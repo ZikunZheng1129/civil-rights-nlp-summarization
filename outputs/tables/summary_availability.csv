@@ -1,0 +1,4 @@
+summary_level,total_cases,non_missing,missing,non_empty,available_percentage
+ref_long,4539,4539,0,4539,100.0
+ref_short,4539,3138,1401,3138,69.13
+ref_tiny,4539,1603,2936,1603,35.32

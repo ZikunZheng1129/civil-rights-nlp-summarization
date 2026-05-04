@@ -1,0 +1,61 @@
+case_type,rank,term,tfidf_score
+Equal Employment,1,employment,0.31378170664572325
+Equal Employment,2,eeoc,0.21597645647351585
+Equal Employment,3,discrimination,0.1861989383271998
+Equal Employment,4,employees,0.18425250822631592
+Equal Employment,5,commission,0.16831181817951846
+Equal Employment,6,equal,0.1528319740830773
+Equal Employment,7,vii,0.13528547920305065
+Equal Employment,8,opportunity,0.13146704132866963
+Equal Employment,9,equal employment,0.13028773367931057
+Equal Employment,10,employment opportunity,0.11489662389629209
+Equal Employment,11,opportunity commission,0.10823868799238637
+Equal Employment,12,lead,0.10750877670455491
+Immigration and/or the Border ,1,immigration,0.2875004784162671
+Immigration and/or the Border ,2,government,0.166045747830318
+Immigration and/or the Border ,3,ice,0.14289126210540914
+Immigration and/or the Border ,4,cir,0.12170316023820757
+Immigration and/or the Border ,5,public,0.11240178563076555
+Immigration and/or the Border ,6,detention,0.1083026963684999
+Immigration and/or the Border ,7,security,0.10806479339642183
+Immigration and/or the Border ,8,executive,0.1076416208531679
+Immigration and/or the Border ,9,enforcement,0.1044688794467815
+Immigration and/or the Border ,10,department,0.10239933412330583
+Immigration and/or the Border ,11,information,0.10213827245483077
+Immigration and/or the Border ,12,status,0.10186247343410308
+Jail Conditions,1,jail,0.3097847556858855
+Jail Conditions,2,inmates,0.2406417558905956
+Jail Conditions,3,health,0.20828531354989568
+Jail Conditions,4,staff,0.2043270450161833
+Jail Conditions,5,inmate,0.16704242728251692
+Jail Conditions,6,medical,0.1640060071600775
+Jail Conditions,7,mental,0.12845149355372915
+Jail Conditions,8,department,0.1266383793798984
+Jail Conditions,9,policy,0.11627959936507265
+Jail Conditions,10,sheriff,0.11318201394520279
+Jail Conditions,11,prisoners,0.11117666597944782
+Jail Conditions,12,covid,0.1073931554383938
+Prison Conditions,1,inmates,0.2548667643854432
+Prison Conditions,2,health,0.21252775742980895
+Prison Conditions,3,staff,0.1970391161093499
+Prison Conditions,4,medical,0.19063703145201416
+Prison Conditions,5,inmate,0.18973938466143536
+Prison Conditions,6,prison,0.1556372749853891
+Prison Conditions,7,prisoners,0.1543246782633163
+Prison Conditions,8,mental,0.15096273698162016
+Prison Conditions,9,care,0.14568412220683277
+Prison Conditions,10,treatment,0.13129919124837472
+Prison Conditions,11,report,0.11603072744258595
+Prison Conditions,12,mental health,0.11223689949749811
+Public Benefits / Government Services,1,services,0.35003753618999955
+Public Benefits / Government Services,2,health,0.19967531336950883
+Public Benefits / Government Services,3,care,0.1902480838038974
+Public Benefits / Government Services,4,marriage,0.18024528729287198
+Public Benefits / Government Services,5,sex,0.15280838233850016
+Public Benefits / Government Services,6,community,0.14960098911849154
+Public Benefits / Government Services,7,medicaid,0.11647339807478463
+Public Benefits / Government Services,8,program,0.10881464436564683
+Public Benefits / Government Services,9,home,0.10039465695450989
+Public Benefits / Government Services,10,department,0.09977731498886423
+Public Benefits / Government Services,11,public,0.0992899397528282
+Public Benefits / Government Services,12,cir,0.09492677097307697
