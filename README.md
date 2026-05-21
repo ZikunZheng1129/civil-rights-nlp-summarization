@@ -4,6 +4,8 @@
 
 This project builds an NLP pipeline for analyzing civil rights lawsuit documents from the Multi LexSum dataset. The system cleans legal text, generates summaries at different levels of detail, and trains machine learning models to classify cases. An interactive Streamlit app is also included for testing new legal text.
 
+---
+
 ## Project Objective
 
 Main components of the project:
@@ -13,6 +15,8 @@ Main components of the project:
 3. Generates **long**, **short**, and **tiny** summaries
 4. Trains text classification models on the cases
 5. Provides an interactive interface for analyzing new legal text
+
+---
 
 ## Dataset
 
@@ -29,6 +33,7 @@ Main components of the project:
 
 All notebooks were executed before submission, and generated outputs are included in `outputs/`.
 
+---
 
 ## Repository Structure
 
@@ -51,6 +56,7 @@ civil-rights-nlp-summarization/
 └── README.md
 ```
 
+---
 
 ## Setup
 
@@ -64,6 +70,7 @@ python3 -c "import nltk; nltk.download('stopwords')"
 
 Python 3.9+ recommended.
 
+---
 
 ## How to Run
 
@@ -90,6 +97,7 @@ streamlit run app/streamlit_app.py
 
 The saved classifiers are included in `outputs/models/`.
 
+---
 
 ## Modeling Summary
 
@@ -107,6 +115,8 @@ The saved classifiers are included in `outputs/models/`.
 | `class_action_sought` | TF IDF + LinearSVC |
 | `case_type` (top 6 classes) | TF IDF + LinearSVC |
 
+---
+
 ## Evaluation Summary
 
 | Task | Metric | Score |
@@ -120,6 +130,7 @@ The saved classifiers are included in `outputs/models/`.
 | case_type (top 6), TF-IDF + LinearSVC | Weighted F1 | 0.9630 |
 | case_type (top 6), TF-IDF + LinearSVC | Macro F1 | 0.9361 |
 
+---
 
 ## NLP Techniques
 
