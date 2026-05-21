@@ -73,12 +73,12 @@ Python 3.9+ recommended.
 jupyter notebook
 ```
 
-Run the notebooks in order if reproducing the analysis from scratch.
+Run the notebooks in order if reproducing the analysis from scratch. Notebook 02 writes the cleaned dataset `outputs/tables/multilexsum_cleaned.parquet`, which Notebooks 03 and 04 load — this file is large and not committed, so run Notebook 02 first.
 
 | Notebook | Description |
 |---|---|
 | `01_data_loading_and_eda.ipynb` | Load data, inspect features, EDA plots |
-| `02_text_cleaning_and_key_findings.ipynb` | Clean text, TF-IDF, n-grams, word cloud, sentiment |
+| `02_text_cleaning_and_key_findings.ipynb` | Clean text, TF-IDF, n-grams, sentiment |
 | `03_summarization_analysis.ipynb` | Generate summaries, compute ROUGE |
 | `04_classification_modeling.ipynb` | Train classifiers, evaluate, save models |
 
