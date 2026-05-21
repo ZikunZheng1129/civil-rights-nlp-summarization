@@ -73,7 +73,7 @@ Python 3.9+ recommended.
 jupyter notebook
 ```
 
-Run the notebooks in order if reproducing the analysis from scratch. Notebook 02 writes the cleaned dataset `outputs/tables/multilexsum_cleaned.parquet`, which Notebooks 03 and 04 load — this file is large and not committed, so run Notebook 02 first.
+Run the notebooks from the project root directory, in order, if reproducing the analysis from scratch. Notebook 02 writes the cleaned dataset `outputs/tables/multilexsum_cleaned.parquet`, which Notebooks 03 and 04 load — this file is large and not committed, so run Notebook 02 first.
 
 | Notebook | Description |
 |---|---|
