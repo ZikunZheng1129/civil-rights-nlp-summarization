@@ -130,7 +130,20 @@ The saved classifiers are included in `outputs/models/`.
 | case_type (top 6), TF-IDF + LinearSVC | Weighted F1 | 0.9630 |
 | case_type (top 6), TF-IDF + LinearSVC | Macro F1 | 0.9361 |
 
----
+
+### Results
+
+The strongest classification model was TF-IDF + LinearSVC.
+
+- class_action_sought:
+  - Accuracy: 94.8%
+  - Macro F1: 0.94
+
+- case_type (top 6 classes):
+  - Accuracy: 96.3%
+  - Macro F1: 0.936
+
+---  
 
 ## NLP Techniques
 
